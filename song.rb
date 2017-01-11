@@ -1,4 +1,5 @@
 nomb_poussins = 29
-nomb_poussins.each do |poussins|
-puts "Ma poul' n'a plus qu' #{nomb_poussins} poussins,"
+nomb_poussins.each do |poussin|
+puts "Ma poul' n'a plus qu' #{poussin} poussins,"
+poussin -= 1
 end
