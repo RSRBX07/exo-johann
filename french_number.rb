@@ -1,32 +1,14 @@
 # ecrire une methode
 def number(num)
-    case num
-    when 0
-    "zero"
-  when 1
-    "un"
-  when 2
-    "zero"
-  when 3
-    "trois"
-  when 4
-    "quattre"
-  when 5
-    "cinq"
-  when 6
-    "six"
-  when 7
-    "sept"
-  when 8
-    "huit"
-  when 9
-    "neuf"
-  else
-    nil
-  end
+ nmbrs = ["zero","un","deux","trois","quatre","cinq","six","sept","huit","neuf"]
+ nmbrs[num] if num < 10
 end
 
-puts in_french 5
+puts number 0
+puts "Entrez un nombre entre 0 et 9 :"
+your_choice = gets.to_i
+puts number(your_choice)
+
 
 # qui prend une instance de Fixum en argument
 # qui retourne la chaine de charactere du nombre en toute lettre
