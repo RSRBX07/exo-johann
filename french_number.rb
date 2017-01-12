@@ -1,11 +1,11 @@
 # ecrire une methode
 def number(num)
- nmbrs = ["zero","un","deux","trois","quatre","cinq","six","sept","huit","neuf"]
- nmbrs[num] if num < 10
+ nmbrs = ["zero","un","deux","trois","quatre","cinq","six","sept","huit","neuf","dix","onze","douze","treize","quatorze","quinze","seize","dix-sept","dix-huit","dix-neuf"]
+ nmbrs[num] if num < 20
 end
 
 puts number 0
-puts "Entrez un nombre entre 0 et 9 :"
+puts "Entrez un nombre entre 0 et 19 :"
 your_choice = gets.to_i
 puts number(your_choice)
 
