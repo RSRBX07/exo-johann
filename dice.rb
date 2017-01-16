@@ -50,3 +50,5 @@ puts "Cette ville ne fais pas partie de mon systeme, désolé" unless found
 # puts roll 
 # puts roll 5
 
+class dice
+  
