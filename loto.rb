@@ -1,4 +1,5 @@
 require 'date'
+
 class Loto
 
   def self.get_grid
@@ -54,16 +55,11 @@ class Loto
     cagnote
   end
 
-  def draw
-    available_balls = (1..45).to_a
-    # shuffle balls and take 5
-    # @picked_balls ||= available_balls.shuffle.take(5)
-    @picked_balls = @picked_balls || available_balls.shuffle.take 5
+ 
 
-    puts "Le tirage du jour est : #{@picked_balls.sort}" 
-    @picked_balls
-  end
+  
 
+  private
   def check_grid grid
     # afficher si gagne ou perdu
     if grid.sort == draw.sort
@@ -72,5 +68,15 @@ class Loto
       puts "You loose !"
     end
   end
-  
+
+  def draw
+    available_balls = (1..45).to_a
+    # shuffle balls and take 5
+    # @picked_balls ||= available_balls.shuffle.take(5)
+    @picked_balls = @picked_balls || available_balls.shuffle.take(5)
+
+    puts "Le tirage du jour est : #{@picked_balls.sort}" 
+    @picked_balls
+  end
+
 end
