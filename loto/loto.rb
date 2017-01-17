@@ -3,6 +3,12 @@ require 'date'
 class Loto
 
   attr_reader :picked_balls
+
+  def initialize
+    puts "On initialise une instance de loto"
+    @picked_balls = []
+  end
+
   def self.get_grid
     grid = []
     5.times do
