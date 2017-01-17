@@ -1,0 +1,1 @@
+require './loto/loto.rb'
