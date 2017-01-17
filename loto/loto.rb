@@ -2,6 +2,7 @@ require 'date'
 
 class Loto
 
+  attr_reader :picked_balls
   def self.get_grid
     grid = []
     5.times do
