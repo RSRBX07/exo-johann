@@ -1,10 +1,13 @@
 class Counter
   attr_reader :value
-  def initialize
-    @value = 0
-  end
+  
   def add_one
-    @value += 1
+    new_value = value + 1
+  end
+  def value
+    File.open "./tmp/counter.txt", "r" do |counter_file|
+      counter_file.each_line {|line| line} 
+    end
   end
 
 end
