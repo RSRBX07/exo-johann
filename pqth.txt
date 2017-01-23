@@ -1,0 +1,24 @@
+C:\ruby\devkit\bin;
+C:\ruby\devkit\mingw\bin;
+C:\ruby\devkit\bin;
+C:\RailsInstaller\Git\cmd;
+C:\RailsInstaller\Ruby2.3.0\bin;
+C:\Ruby22\bin;
+C:\Program Files (x86)\Intel\iCLS Client\;
+C:\Program Files\Intel\iCLS Client\;
+C:\Program Files\Java\jdk1.8.0_111\bin;
+C:\Windows\system32;
+C:\Windows;
+C:\Windows\System32\Wbem;
+C:\Windows\System32\WindowsPowerShell\v1.0\;
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;
+C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;
+C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;
+C:\Program Files\Git\cmd;
+C:\Program Files\Git\mingw64\bin;
+C:\Program Files\Git\usr\bin;
+C:\Program Files\nodejs\;
+C:\Users\admin\AppData\Local\atom\bin;
+C:\Program Files (x86)\Microsoft VS Code\bin;
+C:\Users\admin\AppData\Roaming\npm
